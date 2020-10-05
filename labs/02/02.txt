@@ -1,0 +1,26 @@
+2. Configure basic settings for the router.
+
+enable
+configure terminal
+hostname sw-test-1
+no ip domain-lookup
+enable secret class
+line console 0
+password cisco
+login
+exit
+line vty 0 15
+password cisco
+login 
+exit
+service password-encryption
+banner motd ?Authorized Access Only?
+exit
+copy running-config startup-config
+clock timezone EST 2
+clock set 00:55:00 6 оct 2020
+
+3.
+
+
+*непроверял, накидал просто команд.
