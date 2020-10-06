@@ -22,6 +22,7 @@ end
 !
 enable
 configure terminal
+show vlan brief
 interface fa0/1
 switchport mode trunk
 switchport trunk native vlan 8
@@ -32,6 +33,7 @@ interface fa0/18
 switchport mode access
 switchport access vlan 4
 ip address 192.168.3.12 255.255.255.0
+ip default-gateway 192.168.3.1
 no shutdown
 exit
 interface fa0/2-17

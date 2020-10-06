@@ -21,6 +21,7 @@ copy running-config startup-config
 end
 !
 configure terminal
+show vlan brief
 interface G0/0/1.3
 ip address 192.168.3.1 255.255.255.0
 no shutdown
