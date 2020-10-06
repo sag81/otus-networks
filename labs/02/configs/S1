@@ -40,7 +40,7 @@ no shutdown
 exit
 interface fa0/5
 switchport mode trunk
-switchport trunk vlan 3
+switchport trunk vlan 8
 switchport trunk allowed vlan 3,4,8
 no shutdown
 exit
@@ -68,4 +68,6 @@ show interfaces trunk
 copy running-config startup-config
 end
 !
+!
 !delete vlan.dat
+!erase startup-config

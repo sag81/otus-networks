@@ -61,4 +61,6 @@ show interfaces trunk
 copy running-config startup-config
 end
 !
+!
 !delete vlan.dat
+!erase startup-config

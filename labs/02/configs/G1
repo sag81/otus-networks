@@ -49,4 +49,6 @@ show ip interface brief
 copy running-config startup-config
 end
 !
+!
 !delete vlan.dat
+!erase startup-config
