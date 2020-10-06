@@ -25,6 +25,8 @@ configure terminal
 interface fa0/1
 switchport mode trunk
 switchport trunk native vlan 8
+switchport trunk allowed vlan 3,4,7,8
+no shutdown
 exit
 interface fa0/18
 switchport mode access
@@ -35,14 +37,17 @@ exit
 interface fa0/2-17
 switchport mode access
 switchport access vlan 7
+no shutdown
 exit
 interface fa0/19-24
 switchport mode access
 switchport access vlan 7
+no shutdown
 exit
 interface G0/1-2
 switchport mode access
 switchport access vlan 7
+no shutdown
 exit
 vlan 3
 name Management
