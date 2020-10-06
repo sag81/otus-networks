@@ -1,5 +1,6 @@
-# ЛP 02 Настройка внутренней маршрутизации Inter-VLAN по архитектуре Router-on-a-Stick.
+# ЛP 02. Настройка маршрутизации Inter-VLAN по архитектуре Router-on-a-Stick.
 
+### 	Топология
 ![](https://github.com/sag81/otus-networks/blob/master/labs/02/schema.png)
 
 ### Таблица адресации
@@ -16,10 +17,10 @@ PC-B	   | NIC	    | 192.168.4.3	| 55.255.255.0	| 192.168.4.1
 ### Таблица VLAN
 VLAN  | Имя        | Интерфейс назначен
 ----- | ---------  | ------------------------------- 
-3     |	Management |	S1: VLAN 3
-3     | Management |   S2: VLAN 3
-3     | Management |  S1: F0/6
-4	  | Operations |	S2: F0/18
-7	  | ParkingLot |	S1: F0/2-4, F0/7-24, G0/1-2 
+3     |	Management | S1: VLAN 3
+3     | Management | S2: VLAN 3
+3     | Management | S1: F0/6
+4	  | Operations | S2: F0/18
+7	  | ParkingLot | S1: F0/2-4, F0/7-24, G0/1-2 
 7     | ParkingLot | S2: F0/2-17, F0/19-24, G0/1-2 
 8	  | Native	   | N/A 
