@@ -50,5 +50,6 @@ copy running-config startup-config
 end
 !
 !
+!enable
 !delete vlan.dat
 !erase startup-config
