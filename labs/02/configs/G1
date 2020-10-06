@@ -42,10 +42,11 @@ exit
 interface G0/0/1.8
 switchport mode trunk
 switchport trunk native vlan 8
-switchport trunk allowed vlan 3,4,7,8
+switchport trunk allowed vlan 3,4,8
 no shutdown
 exit
 show ip interface brief
 copy running-config startup-config
 end
 !
+!delete vlan.dat

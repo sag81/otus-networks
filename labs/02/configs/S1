@@ -35,12 +35,13 @@ exit
 interface fa0/1
 switchport mode trunk
 switchport trunk native vlan 8
-switchport trunk allowed vlan 3,4,7,8
+switchport trunk allowed vlan 3,4,8
 no shutdown
 exit
 interface fa0/5
-switchport mode access
-switchport access vlan 3
+switchport mode trunk
+switchport trunk vlan 3
+switchport trunk allowed vlan 3,4,8
 no shutdown
 exit
 interface fa0/6
@@ -53,20 +54,18 @@ exit
 interface fa0/2-4
 switchport mode access
 switchport access vlan 7
-no shutdown
 exit
 interface fa0/7-24
 switchport mode access
 switchport access vlan 7
-no shutdown
 exit
 interface G0/1-2
 switchport mode access
 switchport access vlan 7
-no shutdown
 exit
 !
 show interfaces trunk 
 copy running-config startup-config
 end
 !
+!delete vlan.dat
