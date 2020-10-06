@@ -1,2 +1,2 @@
 # Lab - Configure Router-on-a-Stick Inter-VLAN Routing
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![](https://github.com/sag81/otus-networks/blob/master/labs/02/schema.png)
