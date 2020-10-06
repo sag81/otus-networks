@@ -30,6 +30,7 @@ interface fa0/18
 switchport mode access
 switchport access vlan 4
 ip address 192.168.3.12 255.255.255.0
+no shutdown
 exit
 interface fa0/2-17
 switchport mode access

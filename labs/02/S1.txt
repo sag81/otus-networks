@@ -34,6 +34,7 @@ interface fa0/6
 switchport mode access
 switchport access vlan 3
 ip address 192.168.3.11 255.255.255.0
+no shutdown
 exit
 interface fa0/2-4
 switchport mode access
