@@ -24,7 +24,7 @@ enable
 configure terminal
 interface fa0/1
 switchport mode trunk
-switchport access vlan 8
+switchport trunk native vlan 8
 exit
 interface fa0/18
 switchport mode access
@@ -46,15 +46,14 @@ switchport access vlan 7
 exit
 vlan 3
 name Management
-exit
 vlan 4
 name Operations
-exit
 vlan 7
 name ParkingLot
-exit
 vlan 8
 name Native
+show interfaces trunk 
+copy running-config startup-config
 end
  
 

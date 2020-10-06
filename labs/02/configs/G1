@@ -33,18 +33,14 @@ interface G0/0/1.8
 no shutdown
 exit
 show ip interface brief
-copy running-config startup-config
-exit
 vlan 3
 name Management
-exit
 vlan 4
 name Operations
-exit
 vlan 7
 name ParkingLot
-exit
 vlan 8
 name Native
+copy running-config startup-config
 end
 !
