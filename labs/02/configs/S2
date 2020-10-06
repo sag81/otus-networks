@@ -23,6 +23,15 @@ end
 enable
 configure terminal
 show vlan brief
+vlan 3
+name Management
+vlan 4
+name Operations
+vlan 7
+name ParkingLot
+vlan 8
+name Native
+exit
 interface fa0/1
 switchport mode trunk
 switchport trunk native vlan 8
@@ -51,18 +60,6 @@ switchport mode access
 switchport access vlan 7
 no shutdown
 exit
-vlan 3
-name Management
-vlan 4
-name Operations
-vlan 7
-name ParkingLot
-vlan 8
-name Native
 show interfaces trunk 
 copy running-config startup-config
 end
- 
-
-*непроверял, накидал просто команд.
-** пака тут каша, с утра разнесу по разным файлам и причишу
