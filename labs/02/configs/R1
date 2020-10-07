@@ -1,7 +1,7 @@
 !
 enable
 configure terminal
-hostname G1
+hostname R1
 no ip domain-lookup
 enable secret class
 line console 0
