@@ -1,4 +1,4 @@
-# ЛP 02. Настройка маршрутизации Inter-VLAN по архитектуре Router-on-a-Stick.
+# ПP 02. Настройка маршрутизации Inter-VLAN по архитектуре Router-on-a-Stick.
 
 ### 	Топология
 ![](https://github.com/sag81/otus-networks/blob/master/labs/02/schema.png)
