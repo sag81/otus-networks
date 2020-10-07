@@ -1,7 +1,7 @@
 # ПP 03. Развертывание коммутируемой сети с резервными каналами
 
 ### 	Топология
-![](https://github.com/sag81/otus-networks/blob/master/labs/03/schema.png)
+![](https://github.com/sag81/otus-networks/blob/master/workshop/03/schema.png)
 
 ### 	Таблица адресации
 Устройство | Интерфейс	| IP-адрес	  |  Маска подсети
