@@ -16,12 +16,12 @@ service password-encryption
 banner motd ?Authorized Access Only?
 exit
 !
-interface fa0/1
+vlan 1
 ip address 192.168.1.2 255.255.255.0
-no shutdown
 copy running-config startup-config
 exit
 show spanning-tree
+!
 !
 !enable
 !delete vlan.dat
