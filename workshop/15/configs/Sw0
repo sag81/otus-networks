@@ -14,9 +14,9 @@ login
 exit
 service password-encryption
 banner motd ?Authorized Access Only?
-exit
 clock timezone EST 2
 clock set 11:03:00 19 feb 2021
+exit
 copy running-config startup-config
 end
 !
