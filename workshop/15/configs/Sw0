@@ -19,8 +19,8 @@ exit
 copy running-config startup-config
 end
 !
-configure terminal
 show vlan brief
+configure terminal
 
 
 
