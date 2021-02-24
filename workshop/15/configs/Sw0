@@ -1,7 +1,7 @@
 !
 enable
 configure terminal
-hostname Sw0
+hostname R0
 no ip domain-lookup
 enable secret cisco
 line console 0
