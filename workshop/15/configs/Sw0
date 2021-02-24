@@ -21,6 +21,9 @@ end
 !
 show vlan brief
 configure terminal
+interface Gi0/1
+
+no shutdown
 
 
 
