@@ -22,7 +22,7 @@ end
 show vlan brief
 configure terminal
 interface Gi0/1
-
+ip address 188.188.188.88 255.255.255.0
 no shutdown
 
 
